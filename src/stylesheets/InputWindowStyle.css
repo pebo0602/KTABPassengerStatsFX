@@ -1,0 +1,229 @@
+.root{
+    -fx-background-color: #262626;
+    -fx-font-family: verdana;
+}
+
+.menu-bar{
+    -fx-background-color: #000000;
+}
+
+.menu-bar .label{
+    -fx-text-fill: #d9d9d9;
+}
+
+.context-menu{
+    -fx-background-color: #404040;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}
+
+.tool-bar{
+    -fx-background-color: #262626;
+}
+
+.loginWindow-borderpane{
+    -fx-background-image: url("/rescources/loginWindowBackground.jpg");
+}
+
+.input-anchorpane{
+    -fx-background-image: url("/rescources/KaringoBackground.jpg");
+    -fx-border-color: #595959;
+}
+
+.stat-vbox{
+    -fx-border-color: #595959;
+}
+
+.control-window-vbox{
+    -fx-background-color: #404040;
+    -fx-border-color: #d9d9d9;
+    -fx-border-width: 1;
+}
+
+.control-window-inner-vbox {
+    -fx-background-color: #404040;
+}
+
+.popup-window-container{
+    -fx-background-color: #404040;
+    -fx-border-color: #d9d9d9;
+    -fx-border-width: 1;
+}
+
+.table-view{
+    -fx-base: #1d1d1d;
+    -fx-control-inner-background: #1d1d1d;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: #262626;
+    -fx-border-color: #595959;
+}
+
+.table-view .column-header{
+
+    -fx-background-color: linear-gradient(#4d4d4d, #262626);
+    -fx-font-size: 12;
+}
+
+.table-view .cell{
+    -fx-border-color: linear-gradient(#1a1a1a, #333333);
+    -fx-text-fill: #d9d9d9;
+}
+
+
+.button{
+
+    -fx-background-color: transparent;
+    -fx-text-fill: #d9d9d9;
+    -fx-background-radius: 15;
+}
+
+.check-box{
+    -fx-text-fill: #d9d9d9;
+    -fx-font-size: 15;
+}
+
+.chart-plot-background {
+    -fx-background-color: #e6e6e6;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #666666;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #a6a6a6;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #d9d9d9;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+.axis{
+    -fx-tick-label-fill: #ffa64d;
+}
+
+
+#button-login {
+    -fx-border-radius: 15;
+    -fx-border-color: #262626;
+    -fx-text-fill: #262626;
+}
+
+#button-login:hover{
+    -fx-border-radius: 15;
+    -fx-border-color: #404040;
+    -fx-text-fill: #404040;
+    -fx-font-weight: bold;
+}
+
+#button-send{
+    /*-fx-background-color: #008000;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #00ff00;
+    -fx-text-fill: #00ff00;
+}
+
+#button-send:hover{
+    /*-fx-background-color: #00cc00;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #99ff99;
+    -fx-text-fill: #99ff99;
+    -fx-font-weight: bold;
+}
+
+#button-erase{
+    /*-fx-background-color: #ff3333;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #ff3333;
+    -fx-text-fill: #ff3333;
+}
+
+#button-erase:hover{
+    /*-fx-background-color: #ff8080;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #ffb3b3;
+    -fx-text-fill: #ffb3b3;
+    -fx-font-weight: bold;
+}
+
+#button-control{
+    /*-fx-background-color: #0052cc;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #6699ff;
+    -fx-text-fill: #6699ff;
+}
+
+#button-control:hover{
+    /*-fx-background-color: #3385ff;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #b3ccff;
+    -fx-text-fill: #b3ccff;
+    -fx-font-weight: bold;
+}
+
+#stat-button{
+    /*-fx-background-color: darkcyan;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #00ff00;
+    -fx-text-fill: #00ff00;
+}
+
+#stat-button:hover{
+    /*-fx-background-color: #47d1d1;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #99ff99;
+    -fx-text-fill: #99ff99;
+    -fx-font-weight: bold;
+}
+
+#excel-button{
+    /*-fx-background-color: #d147a3;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #6699ff;
+    -fx-text-fill: #6699ff;
+}
+
+#excel-button:hover{
+    /*-fx-background-color: #ebadd6;*/
+    -fx-border-radius: 15;
+    -fx-border-color: #b3ccff;
+    -fx-text-fill: #b3ccff;
+    -fx-font-weight: bold;
+}
+
+#special-label{
+    -fx-text-fill: #d9d9d9;
+    -fx-font-size: 15;
+}
+
+#red-label{
+    -fx-text-fill: #ff5c33;
+    -fx-font-size: 20;
+}
+
+#green-label{
+    -fx-text-fill: #d9d9d9;
+    -fx-font-size: 20;
+}
+
+#table-view-label{
+    -fx-text-fill: #ff8080;
+    -fx-font-size: 12;
+}
+
+#login-label {
+    -fx-text-fill: #262626;
+    -fx-font-size: 20;
+}
+
+#login-error-label{
+    -fx-text-fill: #ff4d4d;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+
+
+
+
+

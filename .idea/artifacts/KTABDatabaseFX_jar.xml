@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="KTABDatabaseFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/KTABDatabaseFX_jar</output-path>
+    <root id="archive" name="KTABDatabaseFX.jar">
+      <element id="module-output" name="KTABDatabaseFX" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Externa_javabibliotek/mysql-connector-java-5.1.38 2/mysql-connector-java-5.1.38-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Externa_javabibliotek/poi-3.14/poi-3.14-20160307.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
