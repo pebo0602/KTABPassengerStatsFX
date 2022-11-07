@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="KTABDatabaseFX">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/KTABDatabaseFX_jar/KTABDatabaseFX.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

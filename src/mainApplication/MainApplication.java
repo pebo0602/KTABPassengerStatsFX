@@ -33,7 +33,7 @@ public class MainApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        // Test internet connection
+        // Test internet connectio
         Socket socket = null;
         try {
             socket = new Socket("www.google.com", 80);

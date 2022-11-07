@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KTABDatabaseFX.iml" filepath="$PROJECT_DIR$/KTABDatabaseFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KTABPassengerStatsFX.iml" filepath="$PROJECT_DIR$/KTABPassengerStatsFX.iml" />
     </modules>
   </component>
 </project>
