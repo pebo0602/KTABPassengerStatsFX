@@ -19,7 +19,7 @@ public class DatabaseHandler {
     private static Statement stmt;
     private static PreparedStatement prepStmt;
     private static ResultSet resultSet;
-    private static String url = "jdbc:mysql://timetable.cyzgfcxn1ubh.eu-central-1.rds.amazonaws.com:3306/timetable";
+    private static String url = "jdbc:mysql://db01.karingotrafiken.se:3306/timetable?autoReconnect=true&useSSL=false";
     private static String userName;
     private static String password;
     private static LocalDate changeToSummerTableDate;
